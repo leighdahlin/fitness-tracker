@@ -28,6 +28,6 @@ const cardioSchema = new Schema({
     }
 });
 
-const Cardio = mongoose.model("Exercise", cardioSchema);
+const Cardio = mongoose.model("Cardio", cardioSchema);
 
 module.exports = Cardio;

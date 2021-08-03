@@ -31,9 +31,13 @@ const resistanceSchema = new Schema({
         type: Number,
         trim: true,
         required: "Please enter the duration of your activity"
+    },
+    date: {
+        type: Date,
+        default: Date.now
     }
 });
 
-const Resistance = mongoose.model("Exercise", resistanceSchema);
+const Resistance = mongoose.model("Resistance", resistanceSchema);
 
 module.exports = Resistance;
