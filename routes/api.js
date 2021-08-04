@@ -13,11 +13,6 @@ router.get("/exercise", (req,res) => {
     }
 });
 
-// //continue workout
-// router.get("/exercise?", (req,res) => {
-
-// });
-
 router.get("/stats", (req,res) => {
     try {
         res.sendFile(path.join(__dirname, '../public/stats.html'));
@@ -27,7 +22,17 @@ router.get("/stats", (req,res) => {
 });
 
 router.get("/api/workouts", (req,res) => {
-
+    Workout
+    .find({})
+    .sort({'date': 1})
+    .exec(function (err, data) {
+        if (err) {
+            res.send(err)
+        } else {
+            res.json(data)
+        }
+        
+    })
 });
 
 router.post("/api/workouts", ({ body },res) => {
