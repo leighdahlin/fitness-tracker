@@ -21,10 +21,6 @@ const cardioSchema = new Schema({
         type: Number,
         trim: true,
         required: "Please enter the duration."
-    },
-    date: {
-        type: Date,
-        default: Date.now
     }
 });
 

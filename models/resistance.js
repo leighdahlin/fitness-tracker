@@ -31,10 +31,6 @@ const resistanceSchema = new Schema({
         type: Number,
         trim: true,
         required: "Please enter the duration of your activity"
-    },
-    date: {
-        type: Date,
-        default: Date.now
     }
 });
 
