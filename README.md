@@ -3,7 +3,7 @@
 # Fitness Tracker
 
 ## Description
-This workout tracker helps you keep track of your daily workouts.
+Are you not a fan of smart watches but still need a way to track your workouts? If so, this app was designed for you! The Fit Tracker can help you record your workouts and provides data about your past 7 workouts via the dashboard. 
 
 ## Table of Contents
 
@@ -15,19 +15,23 @@ This workout tracker helps you keep track of your daily workouts.
  - [Questions](#questions)
  
 ## Installation
-
+No installation needed, just open the deployed link. 
 
 ## Usage
-
+To use the app, select Create New Workout or Continue Workout. You will be redirected to a screen to enter in your cardio or resistance workout information. Once complete, select either add or complete workout. To view your stats, go to the Dashboard. 
 
 ## Features
 
 This project features:
-
- - 
+ - HTML, CSS, JS and Node.js
+ - Mongodb and Mongo Atlas for the database
+ - Express, Mongoose and Morgan npm packages
+ - get, post and put requests resulting in an interactive interface
 
 ## Screenshot
-![Screenshot of Fitness Tracker]()
+![Screenshot of Fitness Tracker](/public/Images/screenshot1.png)
+![Screenshot of Fitness Tracker](/public/Images/screenshot2.png)
+![Screenshot of Fitness Tracker](/public/Images/screenshot3.png)
 
 ## License
 Copyright <2021> <COPYRIGHT Leigh C Dahlin>
